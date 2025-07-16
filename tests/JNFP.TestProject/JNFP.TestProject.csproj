@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<NoWarn>1701;1702;1591</NoWarn>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="System.Text.Json" Version="8.0.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\framework\JNPF.Extras.Authentication.JwtBearer\JNPF.Extras.Authentication.JwtBearer.csproj" />
+		<ProjectReference Include="..\..\framework\JNPF.Extras.DatabaseAccessor.Dapper\JNPF.Extras.DatabaseAccessor.Dapper.csproj" />
+		<ProjectReference Include="..\..\framework\JNPF.Extras.DatabaseAccessor.SqlSugar\JNPF.Extras.DatabaseAccessor.SqlSugar.csproj" />
+		<ProjectReference Include="..\..\framework\JNPF.Extras.ObjectMapper.Mapster\JNPF.Extras.ObjectMapper.Mapster.csproj" />
+		<ProjectReference Include="..\..\framework\JNPF\JNPF.csproj" />
+	</ItemGroup>
+
+</Project>

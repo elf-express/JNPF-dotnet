@@ -1,0 +1,26 @@
+{
+  "ConnectionStrings": {
+    "ConnectionConfigs": [
+      {
+        "ConfigId": "default",
+        "DBName": "ELFjnpf500",
+        "DBType": "SqlServer", //MySql;SqlServer;Oracle;PostgreSQL;Dm;Kdbndp;Sqlite;
+        "Host": "192.168.20.131",
+        "Port": "1433",
+        "UserName": "sa",
+        "Password": "Sql@admin",
+        "DBSchema": "public"
+      },
+      {
+        "ConfigId": "JNPF-Job", // 不可修改
+        "DBName": "ELFjnpf500job",
+        "DBType": "SqlServer", //MySql;SqlServer;Oracle;PostgreSQL;Dm;Kdbndp;Sqlite;
+        "Host": "192.168.20.131",
+        "Port": "1433",
+        "UserName": "sa",
+        "Password": "Sql@admin",
+        "DBSchema": "public"
+      }
+    ]
+  }
+}
