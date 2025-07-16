@@ -1,3 +1,14 @@
+2025/07/16
+
+此版本為JNPF-backend複製出來，開發完成後推回此git 通知管理人員合併進去 backEnd 做CICD
+
+初次下載此版本 請至 \jnpf-dotnet\framework 下執行 JNPF.SLN 初始此專案
+
+初始完成後 請 使用 \jnpf-dotnet\src 下 JNPF.NET.sln 開發
+
+南傑 
+
+
 > 特别说明：源码、JDK、数据库、Redis等安装或存放路径禁止包含中文、空格、特殊字符等
 
 # 项目说明
