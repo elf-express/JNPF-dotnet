@@ -1,0 +1,7 @@
+cd C:\github_code\jnpf-dotnet
+git init
+git add .
+git commit -m "init from JNPF-BackEnd jnpf-dotnet (full copy)"
+git branch -M master
+git remote add origin https://github.com/elf-express/JNPF-dotnet.git
+git push -u origin master
